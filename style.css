@@ -15,3 +15,11 @@ src: url(fonts/fonts/gt-super-400-normal.woff);
     body{
         font-family: sohne;
     }
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+ .a{
+    
+ }   
