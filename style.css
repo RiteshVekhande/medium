@@ -18,7 +18,7 @@
         }
     
         .container{
-            max-width: 90%;
+            max-width: 80%;
             margin: 0 auto;
         }
      a{
@@ -30,7 +30,7 @@
         background-color: black;
         color: white;
         padding: 8px 12px;
-        border-radius: 3px;
+        border-radius: 20px;
         border: none;
      }
     
@@ -49,54 +49,49 @@
     }
     
     .logo{
-        height: 30px;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     nav{
         display: flex;
-        gap: 20px;
+        gap: 10px;
         align-items: center;
     
     }
     }
     
-    @media screen and  (max-width: 400px){
-        .wired-hidden{
-            display: none;
-        }
-    }
-    @media screen and  (max-width: 400px){
-        .sm-hidden{
-    display: none;
-        } 
-    }
+    
  main{
      background-image: url(/images/medium.png);
+     height: 33vw;
     background-size: contain;
       background-repeat: no-repeat;
-     background-position: 70px;
+     background-position: 80vw;
      .container{
-         min-height: 80px;
+         min-height: 70px;
          display: flex;
          flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
-         gap: 40px;
+         gap: 30px;
      }
     
     h1{
-        font-family: "GT super";
-        size: calc(10vw + 7px);
-        width: 400px;
-    
-    letter-spacing: -3px;
-    line-height: 0.9;
+    font-family: "GT super";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px ;
+
 }
 p{
-    font-size: 22px;
+    font-size: 16px;
 }
 .btn {
-    font-size: 22px;
+    font-size: 16px;
   }
  }
   footer {
@@ -107,24 +102,8 @@ p{
       display: flex;
       gap: 10px;
       justify-content: center;
+      align-items: baseline;
     }
   }
 
-  @media screen and (max-width: 900px) {
-    main {
-      .btn {
-        background: red;
-      }
-    }
-    footer {
-      background-color: black;
-      color: white;
   
-      nav {
-        justify-content: start;
-      }
-      .lg-hidden {
-        display: none;
-      }
-    }
-  }
