@@ -1,25 +1,86 @@
 @font-face{
-font-family: "GT super";
-src: url(fonts/fonts/gt-super-400-normal.woff);
-}
-@font-face{
-    font-family: "sohne";
-    src: url(fonts/fonts/sohne-400-normal.woff);
+    font-family: "GT super";
+    src: url(fonts/fonts/gt-super-400-normal.woff);
     }
-
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    body{
-        font-family: sohne;
-    }
-
-    .container{
-        max-width: 90%;
-        margin: 0 auto;
-    }
- .a{
+    @font-face{
+        font-family: "sohne";
+        src: url(fonts/fonts/sohne-400-normal.woff);
+        }
     
- }   
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "shone";
+            background-color: beige;
+        }
+    
+        .container{
+            max-width: 90%;
+            margin: 0 auto;
+        }
+     a{
+        text-decoration: none;
+        color: inherit;
+     }   
+    
+     .btn{
+        background-color: black;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 3px;
+        border: none;
+     }
+    
+    header
+    {
+        padding: 20px;
+        border-bottom: 1px solid black;
+        font-size: 14px;
+    
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .logo{
+        height: 30px;
+    }
+    
+    nav{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    }
+    
+    @media screen and  (max-width: 400px){
+        .wired-hidden{
+            display: none;
+        }
+    }
+    @media screen and  (max-width: 400px){
+        .sm-hidden{
+    display: none;
+        } 
+    }
+    main{
+        background-image: url(/images/medium.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 70px;
+        .container{
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        
